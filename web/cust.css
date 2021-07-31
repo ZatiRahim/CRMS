@@ -1,0 +1,165 @@
+
+body { 
+	font-family: Verdana, Arial, sans-serif;
+	background-image: url(images/car.gif);
+    background-repeat: repeat;
+	background-attachment: fixed;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#wrapper {
+	max-width: 100%;
+	min-height: 100%;
+	height: auto !important; 
+	overflow: hidden;
+	display: flex;
+}
+
+#header { 
+  background-color:#566573;
+  text-align: center; 
+  height: 150px;
+}
+
+#header img {
+	width: 300px;
+	height: 90px;
+	padding-top: 5px;
+	padding-bottom: 0;
+}
+
+#header h2 {
+  padding-bottom: 5px;
+  padding-top: 0;
+  margin: 0;
+  color: #ffffff;
+  font-family: "Lucida Handwriting" , cursive;
+}
+
+
+#nav { 
+    background: rgba(255,255,255,0.2);
+	float: left;
+	width: 200px;
+	text-align: left;
+    color: #ffffff;
+	font-weight: bold;
+	position: relative;
+	padding-bottom:200px;
+}
+
+#nav a {
+	text-decoration: none;
+	color: #ffffff;
+	display: block;
+	width: 170px;
+	padding: 14px 0 14px 20px; 
+}
+
+#nav a:hover {
+	color: #FFFFFF;
+	background-color: #918479; 
+}
+
+#nav ul {
+	list-style-type: none;
+	padding:0;
+	margin: 0;
+}
+
+#profile {
+	font-weight: bold;
+	font-size: 22px;
+	color: red;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#content {
+  float: left;
+  padding: 20px;
+  background: rgba(255,255,255,0.95);
+  overflow: hidden;
+}
+
+#content h2 { 
+	text-transform: uppercase;
+	color: #af601a;
+	padding: 5px 0 20px 5px;
+	margin-right: 20px;
+	letter-spacing: 3px;
+	clear: left;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 700px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+table {
+	position: center;
+}
+
+td, th {
+	padding: 5px;
+	text-align: center;
+}
+
+#th {
+    text-align: center;
+}
+
+tr, th {
+  width: 300px;
+  height: 40px;
+
+}
+
+tr:nth-of-type(odd) {
+	background-color: #e8e8c5;
+}
+
+tr:nth-of-type(even) {
+	background-color: #ffffff;
+}
+
+button {
+  background-color: #D0D3D4 ;
+  border: none;
+  text-align: center;
+  padding: 11px 27px;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+ }
+ button a {
+     text-decoration: none;
+     color: #000000;
+ }
+
+ button:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+#footer { 
+	background-color:#566573;
+	color: #ffffff;
+	font-style: italic;
+	text-align: center; 
+	padding-top: 20px;
+	padding-bottom: 20px;
+	clear: both;
+}
+
+
+
